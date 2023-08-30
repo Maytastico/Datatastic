@@ -60,5 +60,22 @@ namespace BogoTest
             Array.Equals(array3, array4);
 
         }
+        [Test]
+        public void TestMonkeyUnsortedArrays4()
+        {
+            int[] array3 = new int[]
+            {
+                26, 48, 73, 12, 55, 85, 99, 63, 75, 4,
+                19, 88, 88, 62, 12, 27, 95, 90, 96, 75
+            };
+            int[] array4 = new int[]
+            {
+                4, 12, 12, 19, 27, 48, 55, 62, 63, 73,
+                75, 75, 85, 88, 88, 90, 95, 96, 99
+            };
+            Bogosort.Program.MonkeySort(ref array3);
+            Array.Equals(array3, array4);
+
+        }
     }
 }
