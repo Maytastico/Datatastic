@@ -281,3 +281,5 @@ dist
 *.vsix
 Bogosort/.vs/Bogosort/DesignTimeBuild/.dtbcache.v2
 Bogosort/.vs/Bogosort/DesignTimeBuild/.dtbcache.v2
+*.bin
+*.v2
