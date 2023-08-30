@@ -279,3 +279,4 @@ dist
 
 # Built Visual Studio Code Extensions
 *.vsix
+Bogosort/.vs/Bogosort/DesignTimeBuild/.dtbcache.v2
