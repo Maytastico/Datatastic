@@ -21,7 +21,9 @@ namespace InsertionSort
             int position = 0, temp_value;
             for(int i=0; i<nums.Length; i++)
             {
+                // Position wird initialisiert
                 position = i;
+                // Der Wert aus i wird aus dem Array genommen.
                 temp_value = nums[i];
 
                 //Schiebt das Array gegen null
