@@ -1,0 +1,3 @@
+/home/maylis/Documents/Datatastic/Datastructures/Queues/cmake-build-debug/CMakeFiles/Queues.dir
+/home/maylis/Documents/Datatastic/Datastructures/Queues/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/maylis/Documents/Datatastic/Datastructures/Queues/cmake-build-debug/CMakeFiles/rebuild_cache.dir
