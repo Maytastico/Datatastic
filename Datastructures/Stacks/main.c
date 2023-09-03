@@ -112,6 +112,9 @@ void stack_random_number_demo();
 void stack_linter();
 
 int main() {
+    //Initialisiert den Nummerngenerator
+    srand(time(NULL));
+
     printf("Zufällige Zahlen in den Stack rein und raustun:\n");
     stack_random_number_demo();
 
@@ -164,7 +167,6 @@ void stack_linter(){
  * Zufällige Zahlen in den Stack schreiben und aus dem Stack entnehmen
  */
 void stack_random_number_demo(){
-    srand(time(NULL));
     myStack_t *test_stack = StackNew(sizeof(int), 5);
     for (int i = 0; i < 5; ++i) {
         int random_number = rand() % 20 + 1;
